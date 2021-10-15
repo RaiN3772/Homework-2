@@ -29,7 +29,7 @@ for ($row = 1;$row <= 9;$row++) { // First Loop, we dont want first row to be ze
     $value = $row - 0;
     echo "<td>$value</td>";
 
-    for ($col = 1;$col <= 9;$col++) { // Second Loop, we dont want first columns to be zero's
+    for ($col = 1;$col <= 9;$col++) { // Second Loop, we dont want first column to be zero's
         echo "<td>" . $row . "x" . $col . "=" . ($row * $col) . "</td>"; // Please print table data and its values
     }
 
