@@ -10,7 +10,7 @@ echo "Current Date: " . $current_date . ", Current Time: " . $current_time . "."
 // We want to use custom stylsheet for the table
 echo "<style>";
 echo "td:first-child {";
-echo "background-color: #00ad73!important;";
+echo "background-color: #00ad73;";
 echo "color: #fff;";
 echo "font-weight: bold;";
 echo "width: 5%;";
@@ -27,7 +27,7 @@ echo "<table border ='1' width=70% height=60% style='border-collapse: collapse; 
 for ($row = 1;$row <= 9;$row++) { // First Loop, we dont want first row to be zero's
     echo "<tr>"; // Table row element starts here
     $value = $row - 0;
-    echo "<td style='background-color: #00ad73; color: #fff; font-weight: bold;'>$value</td>"; //We want to give the first column a background color
+    echo "<td>$value</td>";
 
     for ($col = 1;$col <= 9;$col++) { // Second Loop, we dont want first columns to be zero's
         echo "<td>" . $row . "x" . $col . "=" . ($row * $col) . "</td>"; // Please print table data and its values
