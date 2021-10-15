@@ -21,7 +21,7 @@ echo "background: #f2f2f2;";
 echo "}";
 
 echo "</style>";
-echo "<table border =\"1\" width=70% height=60% style='border-collapse: collapse; border-color: #ccc; text-align: center;'>"; //We do not want to loop the table
+echo "<table border ='1' width=70% height=60% style='border-collapse: collapse; border-color: #ccc; text-align: center;'>"; //We do not want to loop the table
 
 
 for ($row = 1;$row <= 9;$row++) { // First Loop, we dont want first row to be zero's
