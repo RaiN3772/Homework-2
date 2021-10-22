@@ -39,6 +39,5 @@ for ($row = 1;$row <= 9;$row++) { // First Loop, we dont want first row to be ze
 
 echo "</table>";
 
-// echo 'PHP version: ' . phpversion(); // Display php version, fot testing purposes
 
 ?>
